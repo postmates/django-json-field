@@ -1,22 +1,16 @@
 from __future__ import unicode_literals, division
 
-<<<<<<< HEAD
-=======
 import inspect
 
 from json_field.fields import JSON_DECODE_ERROR
 
->>>>>>> 780f03492f18a909a7c40e534481dd5a78538ee1
 from test_project.app.models import Test
 from test_project.app.forms import TestForm, OptionalForm, \
     EvalForm, ModelForm
 
 from django.test import TestCase
-<<<<<<< HEAD
-=======
 from django.db.utils import IntegrityError
 import json
->>>>>>> 780f03492f18a909a7c40e534481dd5a78538ee1
 
 import datetime
 from decimal import Decimal
